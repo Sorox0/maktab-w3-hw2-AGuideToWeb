@@ -18,6 +18,10 @@ p {
 .master-container {
 }
 
+/*<<<==============================================>>>*/
+/*<<<=================== header ===================>>>*/
+/*<<<==============================================>>>*/
+
 .header {
   position: sticky;
   z-index: 10;
@@ -47,6 +51,10 @@ p {
   color: #243447;
   /* temp logo*/
 }
+
+/*<<<============================================>>>*/
+/*<<<=================== Main ===================>>>*/
+/*<<<============================================>>>*/
 
 .main {
   padding: 1rem 1.5rem;
@@ -106,10 +114,21 @@ p {
   text-align: center;
 }
 
+.content {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  gap: 1rem;
+  position: relative;
+}
+
 .chapter-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-height: fit-content;
+  position: sticky;
+  top: 4rem;
+
 
   padding: 1.25rem;
   background-color: #FFF;
@@ -141,6 +160,12 @@ p {
   border-radius: 100%;
   padding: .25rem;
   margin: .5rem;
+}
+
+.reading-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .chapter-card {
