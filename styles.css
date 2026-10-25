@@ -304,3 +304,27 @@ p {
   }
 
 }
+
+@media (max-width:860px) {
+  .content {
+      grid-template-columns: 1fr;
+  }
+
+  .chapter-list {
+    position: static;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+}
+
+@media (max-width:550px) {
+  .faq-cards-container {
+    grid-template-columns: 1fr;
+  }
+
+  .chapter-list, .chapter-card, .audience-guide {
+    padding: 1rem;
+  }
+}
