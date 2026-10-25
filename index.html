@@ -5,26 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>راهنمای وب</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="master-container">
         <header class="header">
-            <div class="logo"></div>
-            <navbar class="nav"></navbar>
+            <div><p class="logo">راهنمای وب</p></div> <!-- movaghat -->
+            <nav class="navbar">
+                <a href="#chapter-list" class="navbar-link">فصل‌ها</a>
+                <a href="#faq" class="navbar-link">پرسش‌ها</a>
+            </nav>
         </header>
 
         <main class="main">
-            <section class="hero"></section>
+            <section class="hero">
+                <h1 class="main-heading">شروع کار حرفه‌ای با وب</h1>
+                <p>چهار گام برای ساخت و بررسی نخستین صفحهٔ فارسیُ؛ از محتوای روشن تا اصلاح رفتار صفحه در مرورگر. </p>
+                <button class="btn">شروع مطالعه</button>
+                <span class="section-tag">نسخه جدید</span>
+            </section>
+
+
             <div class="content">
-                <section class="chapter-list"></section>
-                <section class="reading-area"></section>
+                <section class="chapter-list" id="chapter-list">
+                    <h2 class="section-heading">مسیر مطالعه</h3>
+                    <nav class="chapter-navbar">
+                        <a href="#chapter-1" class="chapter-navbar-link"><div class="chapter-counter"><span>۱</span></div>محتوا پیش از ظاهر</a>
+                        <a href="#chapter-2" class="chapter-navbar-link"><div class="chapter-counter"><span>۲</span></div>اندازه و فاصله برای خواندن متن فارسی</a>
+                        <a href="#chapter-3" class="chapter-navbar-link"><div class="chapter-counter"><span>۳</span></div>چیدمان متناسب با رابطهٰ اطلاعات</a>
+                        <a href="#chapter-4" class="chapter-navbar-link"><div class="chapter-counter"><span>۴</span></div>بررسی رفتار صفحه پیش از تحویل</a>
+                    </nav>
+                </section>
+
+                <section class="reading-area">
+                    <div class="chapter-card" id="chapter-1">
+                        <div class="card-title-container">
+                            <h4 class="section-sub-heading">فصل ۱</h4>
+                            <h2 class="section-heading">محتوا پیش از ظاهر</h2>
+                        </div>
+                        <p>پیش از انتخاب رنگ و اندازه، مشخص کنید خواننده باید چه اطلاعاتی بگیرد. عنوان اصلی، توضیح کوتاه و راه تماس را بنویسید و ارتباط با آن‌ها را با بخش‌های صفحه روشن کنید.</p>
+                        <div class="chapter-note">
+                            <ul class="chapter-card-lst">
+                            <li>عنوان هر بخش هدف آن را بگوید. </li>
+                            <li>لینک داخلی به بخش‌های موجود برود. </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="chapter-card" id="chapter-2"></div>
+                    <div class="chapter-card" id="chapter-3"></div>
+                    <div class="chapter-card" id="chapter-4"></div>
+                </section>
             </div>
-            <section class="user-guide"></section>
-            <section class="faq"></section>
+            <section class="guide-audience"></section>
+            <section class="faq" id="faq"></section>
         </main>
 
         <footer class="footer">
-
         </footer>
     </div>
 </body>
