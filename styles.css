@@ -47,6 +47,10 @@ p {
   color: #24649D;
 }
 
+.navbar-link:hover {
+  text-shadow: 0 0 0.35px currentColor; /*font-weight made the container bigger*/
+}
+
 .logo {
   color: #243447;
   /* temp logo*/
@@ -87,6 +91,7 @@ p {
 
 .section-sub-heading {
   color: #24649D;
+  font-weight: bold;
 }
 
 .btn {
@@ -94,10 +99,19 @@ p {
   font-weight: bold;
   width: fit-content;
   padding: .5rem .75rem;
-  border: none;
+  border: 1px solid;
   border-radius: .5rem;
   background-color: #24649D;
   color: #FFF;
+
+  transition: 200ms;
+}
+
+.btn:hover {
+  background-color: #FFF;
+  border: 1px solid #24649D;
+  color: #24649D;
+  text-shadow: 0 0 0.35px currentColor; /*font-weight made the container bigger*/
 }
 
 .section-tag {
@@ -145,6 +159,16 @@ p {
 .chapter-navbar-link {
   text-decoration: none;
   color: #243447;
+  transition: 200ms;
+}
+
+.chapter-navbar-link:hover {
+  text-shadow: 0 0 0.35px currentColor; /*font-weight made the container bigger*/
+  .chapter-counter {
+    background-color: #FFF;
+    border: 1px solid #24649D;
+    color: #24649D; 
+  }
 }
 
 .chapter-counter {
@@ -160,6 +184,9 @@ p {
   border-radius: 100%;
   padding: .25rem;
   margin: .5rem;
+  border: 1px solid;
+  transition: 200ms;
+
 }
 
 .reading-area {
