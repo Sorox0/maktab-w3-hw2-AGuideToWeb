@@ -327,4 +327,13 @@ p {
   .chapter-list, .chapter-card, .audience-guide {
     padding: 1rem;
   }
+
+  .section-tag {
+    position: static;
+    width: fit-content;
+  }
+
+  .footer {
+    font-size: small;
+  }
 }
