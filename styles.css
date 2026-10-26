@@ -314,7 +314,7 @@ p {
     position: static;
   }
 
-  .main {
+  .main, .hero {
     padding: 1rem;
   }
 }
